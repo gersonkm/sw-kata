@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="collection-pipeline_main" target="1.8" />
+      <module name="collection-pipeline_test" target="1.8" />
+      <module name="datetime_main" target="1.8" />
+      <module name="datetime_test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

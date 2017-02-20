@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/collection-pipeline/collection-pipeline.iml" filepath="$PROJECT_DIR$/.idea/modules/collection-pipeline/collection-pipeline.iml" group="collection-pipeline" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/collection-pipeline/collection-pipeline_main.iml" filepath="$PROJECT_DIR$/.idea/modules/collection-pipeline/collection-pipeline_main.iml" group="collection-pipeline" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/collection-pipeline/collection-pipeline_test.iml" filepath="$PROJECT_DIR$/.idea/modules/collection-pipeline/collection-pipeline_test.iml" group="collection-pipeline" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/datetime/datetime.iml" filepath="$PROJECT_DIR$/.idea/modules/datetime/datetime.iml" group="datetime" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/datetime/datetime_main.iml" filepath="$PROJECT_DIR$/.idea/modules/datetime/datetime_main.iml" group="datetime" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/datetime/datetime_test.iml" filepath="$PROJECT_DIR$/.idea/modules/datetime/datetime_test.iml" group="datetime" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sw-kata.iml" filepath="$PROJECT_DIR$/.idea/modules/sw-kata.iml" />
+    </modules>
+  </component>
+</project>
