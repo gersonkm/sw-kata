@@ -1,5 +1,5 @@
 buildscript {
-    val kotlinVersion = "1.1.0-beta-38"
+    val kotlinVersion = "1.1.0-rc-91"
 
     extra["kotlinVersion"] = kotlinVersion
 
