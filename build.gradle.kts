@@ -25,6 +25,7 @@ subprojects {
 
     apply {
         plugin("kotlin")
+        plugin("maven")
     }
 
     configure<JavaPluginConvention> {
