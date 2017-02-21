@@ -17,7 +17,7 @@ class Livro(val id: Int, val isbn: String, val titulo: String, val dataPublicaca
 
     override fun equals(other: Any?): Boolean {
         if (this === other) return true
-        if (other?.javaClass != javaClass) return false
+        if (other?.let { it::class.java } != this::class.java) return false
 
         other as Livro
 
