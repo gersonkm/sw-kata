@@ -1,23 +1,18 @@
 buildscript {
-    val kotlinVersion = "1.1.0-rc-91"
 
-    extra["kotlinVersion"] = kotlinVersion
+    ext.kotlin_version = '1.1.0-rc-91'
 
     repositories {
-        gradleScriptKotlin()
-        mavenCentral()
+        jcenter()
         maven { setUrl("http://dl.bintray.com/kotlin/kotlin-eap-1.1") }
     }
-
     dependencies {
-        classpath("org.jetbrains.kotlin:kotlin-noarg:$kotlinVersion")
-        classpath("org.jetbrains.kotlin:kotlin-allopen:$kotlinVersion")
-        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlinVersion")
-        classpath(kotlinModule("gradle-plugin", kotlinVersion))
+        classpath("org.jetbrains.kotlin:kotlin-noarg:$kotlin_version")
+        classpath("org.jetbrains.kotlin:kotlin-allopen:$kotlin_version")
+        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version")
     }
 }
 
-val kotlinVersion = extra["kotlinVersion"] as String
 
 subprojects {
     group = "br.com.sidlar.stopwatch.swkata"
@@ -28,10 +23,8 @@ subprojects {
         plugin("maven")
     }
 
-    configure<JavaPluginConvention> {
-        setSourceCompatibility(1.8)
-        setTargetCompatibility(1.8)
-    }
+    setSourceCompatibility(1.8)
+    setTargetCompatibility(1.8)
 
     repositories {
         mavenCentral()
@@ -40,8 +33,8 @@ subprojects {
     }
 
     dependencies {
-        compile(kotlinModule("stdlib", kotlinVersion))
-        compile(kotlinModule("reflect", kotlinVersion))
+        compile("org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version")
+        compile("org.jetbrains.kotlin:kotlin-reflect:$kotlin_version")
 
         compile("org.threeten:threeten-extra:1.0")
         compile("org.apache.commons:commons-lang3:3.4")
@@ -54,5 +47,5 @@ subprojects {
         testCompile("org.assertj:assertj-guava:3.1.0")
     }
 
-}
 
+}
