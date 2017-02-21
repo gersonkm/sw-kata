@@ -25,6 +25,6 @@ interface CPI_000_A {
      *  - Implementação da solução nas linguagens Java e Kotlin.
      *  - Testes de unidade escritos em Kotlin.
      */
-    fun solve(coffeeBrands: List<CoffeeBrand>): List<String>
+    fun solve(): List<String>
 
 }
