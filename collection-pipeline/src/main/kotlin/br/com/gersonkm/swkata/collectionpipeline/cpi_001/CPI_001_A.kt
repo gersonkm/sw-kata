@@ -1,4 +1,4 @@
-package br.com.sidlar.stopwatch.swkata.collectionpipeline.cpi_001
+package br.com.gersonkm.swkata.collectionpipeline.cpi_001
 
 interface CPI_001_A {
 

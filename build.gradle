@@ -15,7 +15,7 @@ buildscript {
 
 
 subprojects {
-    group = "br.com.sidlar.stopwatch.swkata"
+    group = "br.com.gersonkm.swkata"
     version = "0.0.1-SNAPSHOT"
 
     apply {

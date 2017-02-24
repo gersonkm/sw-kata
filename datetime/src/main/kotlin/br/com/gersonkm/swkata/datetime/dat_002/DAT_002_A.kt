@@ -1,4 +1,4 @@
-package br.com.sidlar.stopwatch.swkata.datetime.dat_002
+package br.com.gersonkm.swkata.datetime.dat_002
 
 import com.google.common.collect.Range
 import java.time.LocalDate

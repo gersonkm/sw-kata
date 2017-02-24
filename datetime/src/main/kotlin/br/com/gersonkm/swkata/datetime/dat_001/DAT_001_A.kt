@@ -1,4 +1,4 @@
-package br.com.sidlar.stopwatch.swkata.datetime.dat_001
+package br.com.gersonkm.swkata.datetime.dat_001
 
 import org.threeten.extra.Days
 import org.threeten.extra.Weeks
